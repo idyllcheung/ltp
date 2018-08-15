@@ -29,6 +29,7 @@ asyncio02 asyncio02
 
 bind01 bind01
 bind02 bind02
+bind03 bind03
 
 bdflush01 bdflush01
 
@@ -145,7 +146,7 @@ execve01 execve01
 execve02 execve02
 execve03 execve03
 execve04 execve04
-execve05 execve05 20 $LTPROOT/testcases/bin/execve05 $LTPROOT/testcases/bin/execve05 4
+execve05 execve05 -i 5 -n 32
 execvp01 execvp01
 execveat03 execveat03
 
@@ -355,7 +356,6 @@ getcwd01 getcwd01
 getcwd02 getcwd02
 getcwd03 getcwd03
 getcwd04 getcwd04
-getcwd05 getcwd05
 
 getdents01 getdents01
 getdents02 getdents02
@@ -902,6 +902,8 @@ readlinkat02 readlinkat02
 readv01 readv01
 readv02 readv02
 readv03 readv03
+
+realpath01 realpath01
 
 reboot01 reboot01
 reboot02 reboot02
